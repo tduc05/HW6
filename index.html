@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        pre {
+            background-color: #e3f0e2;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: Arial, sans-serif; 
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Products Json</h1>
+
+    <pre id="product-json"></pre>
+
+    <script>
+        const products = [
+            { "name": "Eco-friendly Water Bottle", "description": "Reusable stainless steel water bottle", "price": 25, "categories": ["home", "outdoor"] },
+            { "name": "Wireless Mouse", "description": "Ergonomic wireless mouse with USB receiver", "price": 30, "categories": ["electronics"] },
+            { "name": "Yoga Mat", "description": "Non-slip mat for yoga and pilates", "price": 40, "categories": ["fitness", "home"] },
+            { "name": "Smart Light Bulb", "description": "Energy-efficient LED bulb with smart controls", "price": 20, "categories": ["electronics"] },
+            { "name": "Leather Jacket", "description": "Genuine leather jacket with zip-up front", "price": 200, "categories": ["clothing"] },
+            { "name": "Gaming Headset", "description": "Over-ear headphones with microphone for gaming", "price": 90, "categories": ["electronics", "gaming"] },
+            { "name": "Travel Backpack", "description": "Durable backpack with multiple compartments for travel", "price": 85, "categories": ["outdoor", "accessories"] },
+            { "name": "Polaroid Camera", "description": "Instant print camera with retro design", "price": 110, "categories": ["electronics", "vintage"] }
+        ];
+
+        document.getElementById("product-json").innerText = JSON.stringify(products, null, 4);
+    </script>
+</body>
+</html>
