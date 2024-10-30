@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="products.css"?>
+
+<products>
+    <product>
+        <name>Eco-friendly Water Bottle</name>
+        <description>Reusable stainless steel water bottle</description>
+        <price>25</price>
+        <categories>
+            <category>home</category>
+            <category>outdoor</category>
+        </categories>
+    </product>
+    <product>
+        <name>Wireless Mouse</name>
+        <description>Ergonomic wireless mouse with USB receiver</description>
+        <price>30</price>
+        <categories>
+            <category>electronics</category>
+        </categories>
+    </product>
+    <product>
+        <name>Yoga Mat</name>
+        <description>Non-slip mat for yoga and pilates</description>
+        <price>40</price>
+        <categories>
+            <category>fitness</category>
+            <category>home</category>
+        </categories>
+    </product>
+    <product>
+        <name>Smart Light Bulb</name>
+        <description>Energy-efficient LED bulb with smart controls</description>
+        <price>20</price>
+        <categories>
+            <category>electronics</category>
+        </categories>
+    </product>
+    <product>
+        <name>Leather Jacket</name>
+        <description>Genuine leather jacket with zip-up front</description>
+        <price>200</price>
+        <categories>
+            <category>clothing</category>
+        </categories>
+    </product>
+    <product>
+        <name>Gaming Headset</name>
+        <description>Over-ear headphones with microphone for gaming</description>
+        <price>90</price>
+        <categories>
+            <category>electronics</category>
+            <category>gaming</category>
+        </categories>
+    </product>
+    <product>
+        <name>Travel Backpack</name>
+        <description>Durable backpack with multiple compartments for travel</description>
+        <price>85</price>
+        <categories>
+            <category>outdoor</category>
+            <category>accessories</category>
+        </categories>
+    </product>
+    <product>
+        <name>Polaroid Camera</name>
+        <description>Instant print camera with retro design</description>
+        <price>110</price>
+        <categories>
+            <category>electronics</category>
+            <category>vintage</category>
+        </categories>
+    </product>
+</products>

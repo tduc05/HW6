@@ -1,0 +1,45 @@
+/* Style for products in XML display with Arial font */
+product {
+    display: block;
+    margin: 25px 0;
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    background: #fafafa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+product name {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+product description {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+    display: block;
+}
+
+product price {
+    color: rgb(103, 169, 151);
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+category {
+    display: inline-block;
+    background: #ecf0f1;
+    padding: 7px 12px;
+    margin-right: 8px;
+    border-radius: 5px;
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
